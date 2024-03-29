@@ -11,8 +11,8 @@ ul {
 	list-style: none;
 }
 a {
-	text-decoration: none !important; 
-	color: inherit !important;
+	text-decoration: none ; 
+	color: inherit;
 	cursor: pointer;
 }
 section {
@@ -139,7 +139,7 @@ header .nav li:last-child {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .card{
     width: 325px;
@@ -207,7 +207,7 @@ header .nav li:last-child {
 	font-size: 24px;
 }
 #readmore{
-	margin-top: 52px;
+	margin-top: 102px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -224,6 +224,54 @@ header .nav li:last-child {
 	font-weight: lighter;
 	color: #666;
 }
-/* imgs
+/* footer
  */
+footer{
+	margin-top: 52px;
+}
+ 
+ .foot-con{
+	display: flex;
+	background: #222831;
+	justify-content: space-between;
+	color: white;
+ }
+ .right{
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+ }
+ .footimg{
+	width: 50%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+ }
+ #right{
+	margin-bottom: 10px;
+ }
+ .icon{
+	margin-top: 10px;
+	justify-content: space-around;
+ }
 
+ .another-foot{
+	background: #131010;
+	display: flex;
+	justify-content: center;
+	color: white;
+ }
+ .fot-co{
+	display: flex;
+	justify-content: space-between;
+ }
+.prav{
+display: flex;
+justify-content: space-around;
+
+}
+.main-card{
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
