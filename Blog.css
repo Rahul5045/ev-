@@ -205,7 +205,7 @@ header .nav li:last-child {
     cursor: pointer;
 }
 
-/* footer */
+/* /* footer */
 .footer{
 	/* background: #cfcfcf; */
 	margin-top: 8%;
@@ -354,4 +354,51 @@ hr{
 	
 	}
 	
+} */
+/* footer
+ */
+footer{
+	margin-top: 52px;
+}
+ 
+ .foot-con{
+	display: flex;
+	background: #222831;
+	justify-content: space-between;
+	color: white;
+ }
+ .right{
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+ }
+ .footimg{
+	width: 50%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+ }
+ #right{
+	margin-bottom: 10px;
+ }
+ .icon{
+	margin-top: 10px;
+	justify-content: space-around;
+ }
+
+ .another-foot{
+	background: #131010;
+	display: flex;
+	justify-content: center;
+	color: white;
+ }
+ .fot-co{
+	display: flex;
+	justify-content: space-between;
+ }
+.prav{
+display: flex;
+justify-content: space-around;
+
 }
